@@ -1,10 +1,12 @@
 # GRAPH CONVOLUTIONAL NETWORKS
 
 ## Introduction
+-   ![image](https://miro.medium.com/max/700/1*4SOlfgA9FjEpbCbfvYtiWw.png)
+
 
 -   관계, 상호작용과 같은 추상적인 개념을 다루기에 적합하다.
 -   소셜 네트워크, 미디어의 영향, 바이러스 확산 등을 연구하고 모델링 할 때 사용할 수 있다.
--   ![image](https://miro.medium.com/max/700/1*4SOlfgA9FjEpbCbfvYtiWw.png)
+
 
 
 ## Model
