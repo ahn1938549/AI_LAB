@@ -25,7 +25,7 @@
 - 그 후 그 식을 1차로 Relu, 2차로 Softmax를 거쳐 라벨에 맞게 결과값을 도출한다. (2차원의 경우)
 
 ## Readout
-
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc1644Y%2Fbtqz6g9DDpP%2FYUxHm1piMVukC115s1R5S0%2Fimg.png)
 - CNN에서 Fully-connected layer 후에 Softmax와 같은 것을 GCN에서는 Readout이라고 지칭한다.
 - 노드들의 순서를 불러오는 점에 따라 값이 다른 문제가 생기는 것을 방지한다.
 - 이를 MLP 함수를 통하여 보완한다.
