@@ -8,8 +8,8 @@
 
 
 ## Model
-![image](https://miro.medium.com/max/459/1*I5ryx9VWVgQW6Y23vxn5mg.jpeg)
-![qqq](https://user-images.githubusercontent.com/69898343/143408144-212ff4be-944d-4f87-bbf7-3b7f3f3babee.png)
+![image](https://miro.medium.com/max/700/1*EzSQP50zcYL0zUyRt5ouDA.png)
+![image](https://user-images.githubusercontent.com/69898343/143408144-212ff4be-944d-4f87-bbf7-3b7f3f3babee.png)
 
 
 
