@@ -4,15 +4,14 @@
 
 -   관계, 상호작용과 같은 추상적인 개념을 다루기에 적합하다.
 -   소셜 네트워크, 미디어의 영향, 바이러스 확산 등을 연구하고 모델링 할 때 사용할 수 있다.
--   https://miro.medium.com/max/700/1*4SOlfgA9FjEpbCbfvYtiWw.png
+-   ![image](https://miro.medium.com/max/700/1*4SOlfgA9FjEpbCbfvYtiWw.png)
 
 
 ## Model
-![image](https://user-images.githubusercontent.com/69898343/133611002-302c92e2-069e-457e-886b-208237df2689.png)
+![image](https://miro.medium.com/max/459/1*I5ryx9VWVgQW6Y23vxn5mg.jpeg)
+![qqq](https://user-images.githubusercontent.com/69898343/143408144-212ff4be-944d-4f87-bbf7-3b7f3f3babee.png)
 
-- max-over-time pooling operation ( max-pooling)을 사용하여 최대값을 얻은 후
-- 하나의 filter에 대하여 하나의 feeature만을 뽑아내(특징) 이를 한 곳에 모아 penultimate layer를 생성 후 이에 따라 
-- fully connected softmax layer을 통과하여 값을 얻어낸다.
+
 
 ### Regularization
 - 마지막 Layer에서 drop-out과 l2norm 기법을 사용하여 중복된 hidden layer의 문제를 최소화 하였다.
