@@ -9,25 +9,34 @@
 
 ## Model
 ![image](https://miro.medium.com/max/700/1*EzSQP50zcYL0zUyRt5ouDA.png)
+
+![image](https://blog.kakaocdn.net/dn/bQ5Em5/btqAU6Lc3YS/f1GIUGiCugVdgGiwIeY9OK/img.png)
+
 ![image](https://user-images.githubusercontent.com/69898343/143408144-212ff4be-944d-4f87-bbf7-3b7f3f3babee.png)
 
+- a는 인접 노드들의 정보를 나타낸 Matrix
+- D는 a의 정보값에 대한 평균 또한 후에 한 번 더 곱함으로써, 가중치를 곱하여 가중 평균을 구할 수 있도록 한다. 
+    이로써, 낮은 차수에 조금 더 큰 영향력 높은 차수에 영향력을 줄인다. (Gradient Vainshing같은 현상을 예방한다.)
+- H는 각 노드의 Feature Matrix를 나타낸다.
+- W는 각 노드들의 가중치와 bias를 포함한 정보이다.(Convolution Filter부분)
+- 모두 지수에 -1/2가 붙어있는 것은 정규화를 두번 하기 때문이다.
+
+![image](https://user-images.githubusercontent.com/69898343/143410369-30252715-c532-48ff-846b-f12904d963c1.png)
+- 그 후 그 식을 1차로 Relu, 2차로 Softmax를 거쳐 라벨에 맞게 결과값을 도출한다. (2차원의 경우)
+
+## Readout
+
+- CNN에서 Fully-connected layer 후에 Softmax와 같은 것을 GCN에서는 Readout이라고 지칭한다.
+- 노드들의 순서를 불러오는 점에 따라 값이 다른 문제가 생기는 것을 방지한다.
+- 이를 MLP 함수를 통하여 보완한다.
 
 
-### Regularization
-- 마지막 Layer에서 drop-out과 l2norm 기법을 사용하여 중복된 hidden layer의 문제를 최소화 하였다.
-- ![qwq](https://user-images.githubusercontent.com/69898343/133556690-3dc31dec-53e9-462c-bd8a-968c6a0efd81.png)
-다음과 같은 기법으로 r이 Bernoulli분포를 따르기 때문에 0 혹은 1의 값을 갖는다.
 
-### Result
-![image](https://user-images.githubusercontent.com/69898343/133557331-e901652b-4e90-4b92-818b-77f6401334ff.png)
-- Word2vec에서 사전훈련된 단어를 사용할 경우 정확도가 크게 증간한다.
-- rand는 그대로 vector적용 X
-- static은 word2vec 사전훈련
-- non-static은 사전훈련과 동시에 역전파로 계속 vector들이 수정되어 진 학습모델
+### DataSet
+![image](https://baekyeongmin.github.io/images/GCN/dataset.png)
+- Citation network : 총 20개의 label을 결과로 학습, 논문 인용횟수와 관련 논문들의 연관성을 나타낸 dataset
+- Nell : Never Ending Language Learning 으로 스포츠팀, 회사 등 연관성이 있는 기사들을 분류하고 나타낸 dataset
+
+![image](https://baekyeongmin.github.io/images/GCN/result.png)
 
 
-
-### 고찰
-- 기존 one-hot 벡터로 단어를 표현하는 점에서 벗어나, 단어들끼리의 결합관계를 생성하고 이에 따라 알고리즘이 자동으로 대안의 단어를 학습할 수 있다는 점이 놀라웠다.
-![image](https://user-images.githubusercontent.com/69898343/133558199-b43668c8-2bfa-4805-ba42-fbbd75890255.png)
-과 같이 non-static이 조금 더 단어에 대하여 연관성을 잘 표시하는 점을 알 수 있었다.
