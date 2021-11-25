@@ -14,7 +14,7 @@
 
 ![image](https://blog.kakaocdn.net/dn/bQ5Em5/btqAU6Lc3YS/f1GIUGiCugVdgGiwIeY9OK/img.png)
 
-![image](https://ichi.pro/assets/images/max/724/1*s5M3nMa8M9NUQrlP7WRq9w.png)
+![image](https://miro.medium.com/max/1400/1*mFzCYa-PG3mUAZQE6oQASg.png)
 
 - a는 인접 노드들의 정보를 나타낸 Matrix
 - D는 a의 정보값에 대한 평균 또한 후에 한 번 더 곱함으로써, 가중치를 곱하여 가중 평균을 구할 수 있도록 한다. 
