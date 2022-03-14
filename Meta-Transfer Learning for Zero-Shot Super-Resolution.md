@@ -3,8 +3,7 @@
 ## Introduction
 - DownSampling : LR - HR 페어를 만들기 위한 기초적인 절차이며 이는 대부분 Bicubic이라는 알고리즘을 사용한다. 또한 이 과정을 통하여 하나의 그림으로 하나의 Train-set을 만든다.
 
-![02](https://user-images.githubusercontent.com/69898343/158175577-6b092a06-2b30-4b0c-b26f-7fa473fb3979.png)
-![10](https://user-images.githubusercontent.com/69898343/158180194-24510a5a-fd57-4a6d-9748-c3421ff7290c.png)
+![02](https://user-images.githubusercontent.com/69898343/158175577-6b092a06-2b30-4b0c-b26f-7fa473fb3979.png)  ![10](https://user-images.githubusercontent.com/69898343/158180194-24510a5a-fd57-4a6d-9748-c3421ff7290c.png)
 
 - 현재까지 연구중인 Single Image Super Resolution 의 알고리즘은 CNN기반을 사용한 알고리즘이나 
 - 이는 학습에 따른 파라미터의 변화가 너무 크며 이미지내의 특이점보다 학습하면서 바뀐 파라미터들에 의존한다는 점에 그림의 특징을 잘 잡아내지 못한다는 단점이 있다. 
