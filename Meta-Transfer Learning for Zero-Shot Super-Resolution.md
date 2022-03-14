@@ -21,7 +21,7 @@
 - Large scale Learning , Meta - Transfer Learing, Meta Test 3가지의 방법으로 나누어진다.
 
 - Large scale Learning
-![일괄편집_일괄편집_4](https://user-images.githubusercontent.com/69898343/158183067-ac25041d-2257-497e-9176-1db8681a5006.png)
+![4](https://user-images.githubusercontent.com/69898343/158183477-0935a786-04e4-4865-95df-69001d9c89d3.png)
 - 다양한 이미지에서 공통적으로 사용되는 인자들을 학습합니다. 이 과정에서 LR을 만듦과 동시에 LR, HR 짝을 생성하며 그 값들을 Error값의 차이와 계산하여 Loss를 최소화 하도록 합니다.
 
 - Meta - Transfer Learing
