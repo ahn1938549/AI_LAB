@@ -1,7 +1,7 @@
 # GRAPH CONVOLUTIONAL NETWORKS
 
 ## Introduction
--  ![image][02](https://user-images.githubusercontent.com/69898343/158168561-989671eb-6e3b-44bb-abb8-f2245fc72da4.png)
+-  ![image](https://user-images.githubusercontent.com/69898343/158168561-989671eb-6e3b-44bb-abb8-f2245fc72da4.png)
 - 현재까지 연구중인 SISR의 알고리즘은 CNN기반을 사용한 알고리즘이나 이는 내부 정보를 이용하지 않아 외부의존도가 큰 단점이 있다.
 - ![image][3](https://user-images.githubusercontent.com/69898343/158168747-b9629673-228d-4749-a861-53ca011056af.png)
 - ZSSR은 내부의 것을 사용하나 업데이트가 너무 크다. 시간이 너무 많이 걸림 
