@@ -27,7 +27,7 @@
 
 ### 결과
 ![7](https://user-images.githubusercontent.com/69898343/158174231-04d819e0-327a-4213-b793-8ecabfb28003.png)
-10번의 과정만 거쳐도 학습률이 대폭 상승함을 확인 할 수 있다.
+- 10번의 과정만 거쳐도 학습률이 대폭 상승함을 확인 할 수 있다.
 
 ![8](https://user-images.githubusercontent.com/69898343/158174641-4c1f2ee4-f499-4afc-9d2b-39451ec0b57c.png)
 
