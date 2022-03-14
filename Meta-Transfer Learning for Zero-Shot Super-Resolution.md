@@ -4,6 +4,7 @@
 - DownSampling : LR - HR 페어를 만들기 위한 기초적인 절차이며 이는 대부분 Bicubic이라는 알고리즘을 사용한다. 또한 이 과정을 통하여 하나의 그림으로 하나의 Train-set을 만든다.
 
 ![일괄편집_일괄편집_02](https://user-images.githubusercontent.com/69898343/158183039-da632746-aa7e-49d2-98bf-900d24447aa7.png)
+
 ![일괄편집_일괄편집_10](https://user-images.githubusercontent.com/69898343/158183058-5576e5fb-2313-4e18-bccb-7d5ebbaa3514.png)
 
 - 현재까지 연구중인 Single Image Super Resolution 의 알고리즘은 CNN기반을 사용한 알고리즘이나 
@@ -18,6 +19,7 @@
 
 ## Model (MZSR)
 ![일괄편집_일괄편집_1](https://user-images.githubusercontent.com/69898343/158183036-3f14dde5-c685-4fb3-99fb-dcbb57f5d7c1.png)
+
 - Large scale Learning , Meta - Transfer Learing, Meta Test 3가지의 방법으로 나누어진다.
 
 - Large scale Learning
@@ -26,6 +28,7 @@
 
 - Meta - Transfer Learing
 ![일괄편집_일괄편집_3](https://user-images.githubusercontent.com/69898343/158183062-3761ad15-90f8-4e7d-a4c9-cb9361ce50bb.png)
+
 - 학습을 위한 학습이라고도 불리며, 각 커널들에 따른 가중치를 각각 계산하여 추후에 학습에 대한 변화량이 적절하게 이루어지도록 하는 학습입니다.
 - 각 task에 맞는 weight값들을 따로 구현해두어 loss의 방향성에 대한 최적화가 빠른 편입니다. 또한 이 연산을 위하여 Covariance Matrix를 사용합니다.
 - 전반적인 optimization을 통하여 Test에 대한 에러를 최소화 하는 방향으로 weight값들을 변경시켜 나갑니다.
@@ -35,11 +38,13 @@
 
 - 전체적인 알고리즘
 ![일괄편집_일괄편집_5](https://user-images.githubusercontent.com/69898343/158183074-f520a3ae-816c-4c90-ac2c-7025b6e4e60b.png)
+
 ![일괄편집_일괄편집_6](https://user-images.githubusercontent.com/69898343/158183081-1f3429b4-7e65-4cbd-adec-1d3cf8a8a58d.png)
 
 
 ### 결과
 ![일괄편집_일괄편집_7](https://user-images.githubusercontent.com/69898343/158183083-e83f1426-f4ab-425a-9ab7-b47b19bbdf0d.png)
+
 - 10번의 과정만 거쳐도 학습률이 대폭 상승함을 확인 할 수 점을 확인 할 수 있으며, 학습된 모델과 비슷한 성능을 내는 효과를 확인 할 수 있습니다.
 - 1 - 10번의 업데이트만으로도 유사한 성능을 확인 할 수 있습니다.
 
