@@ -14,8 +14,10 @@
 - ![1](https://user-images.githubusercontent.com/69898343/158174901-ac307337-3626-469f-8354-ba531352e9b4.png)
 - Large scale Learning , Meta - Transfer Learing, Meta Test 3가지의 방법으로 나누어진다.
 
+- Large scale Learning
 - ![4](https://user-images.githubusercontent.com/69898343/158171348-b340fdda-cace-4bf7-96cd-3cb3d95bba7d.png)
-
+- 
+- Meta - Transfer Learing
 - ![3](https://user-images.githubusercontent.com/69898343/158168747-b9629673-228d-4749-a861-53ca011056af.png)
 
 - 전체적인 알고리즘
@@ -23,9 +25,9 @@
 ![6](https://user-images.githubusercontent.com/69898343/158173926-cdfeb416-c1d9-4511-a6cf-32b8909ab662.png)
 
 
-
-
 ### 결과
 ![7](https://user-images.githubusercontent.com/69898343/158174231-04d819e0-327a-4213-b793-8ecabfb28003.png)
+
+
 ![8](https://user-images.githubusercontent.com/69898343/158174641-4c1f2ee4-f499-4afc-9d2b-39451ec0b57c.png)
 
