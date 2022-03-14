@@ -34,8 +34,8 @@
 - Zero-shot super learning의 방식과 동일하게 하나의 그림으로만 학습하는 과정을 볼 수 있으나 이는 전에 Large scale Learing과 Meta 러닝을 통하여 데이터셋에 대하여 최적화가 되어있으며 weight값 또한 각 그림에 맞게 최적화되는 것을 볼 수 있습니다.
 
 - 전체적인 알고리즘
-![5](https://user-images.githubusercontent.com/69898343/158173547-538152a4-e82a-4735-9437-3f548e751315.png)
-![6](https://user-images.githubusercontent.com/69898343/158173926-cdfeb416-c1d9-4511-a6cf-32b8909ab662.png)
+- ![5](https://user-images.githubusercontent.com/69898343/158173547-538152a4-e82a-4735-9437-3f548e751315.png)
+- ![6](https://user-images.githubusercontent.com/69898343/158173926-cdfeb416-c1d9-4511-a6cf-32b8909ab662.png)
 
 
 ### 결과
